@@ -41,70 +41,90 @@ export default class Home extends Component {
 
     return (
       <>
-        <div className="container">
-          <Slider {...settings} className="carousel-custom">
+        <Slider {...settings} className="carousel-custom">
+          <div className="card1">
             <div
+              className="section1"
               style={{
                 backgroundImage: `url(${this.props.image})`,
                 backgroundRepeat: "no-repeat",
-                // backgroundSize: "contain",
+                backgroundSize: "cover",
+                height: "700px",
               }}
             >
-              <div className="carousel-card">
-                <h4>{this.props.type}</h4> <h1>{this.props.name}</h1>
-                <p>{this.props.desc}</p>
-                <Buttons>Каталог</Buttons>
-                <br />
-                <br />
+              <div className="container">
+                <div className="carousel-card">
+                  <h4>{this.props.type}</h4> <h1>{this.props.name}</h1>
+                  <p>{this.props.desc}</p>
+                  <Buttons>Каталог</Buttons>
+                  <br />
+                  <br />
+                </div>
               </div>
             </div>
+          </div>
+          <div className="card1">
             <div
+              className="section1"
               style={{
-                backgroundImage: `url(${this.props.image2})`,
+                backgroundImage: `url(${this.props.image})`,
                 backgroundRepeat: "no-repeat",
-                // backgroundSize: "contain",
+                backgroundSize: "cover",
               }}
             >
-              <div className="carousel-card">
-                <h4>{this.props.type2}</h4> <h1>{this.props.name2}</h1>
-                <p>{this.props.desc2}</p>
-                <Buttons>Каталог</Buttons>
-                <br />
-                <br />
+              <div className="container">
+                <div className="carousel-card">
+                  <h4 className="type_home">{this.props.type2}</h4>{" "}
+                  <h1>{this.props.name2}</h1>
+                  <p>{this.props.desc2}</p>
+                  <Buttons>Каталог</Buttons>
+                  <br />
+                  <br />
+                </div>
               </div>
             </div>
+          </div>
+          <div className="card1">
             <div
+              className="section1"
               style={{
-                backgroundImage: `url(${this.props.image3})`,
+                backgroundImage: `url(${this.props.image})`,
                 backgroundRepeat: "no-repeat",
-                // backgroundSize: "contain",
+                backgroundSize: "cover",
               }}
             >
-              <div className="carousel-card">
-                <h4>{this.props.type3}</h4> <h1>{this.props.name3}</h1>
-                <p>{this.props.desc3}</p>
-                <Buttons>Каталог</Buttons>
-                <br />
-                <br />
+              <div className="container">
+                <div className="carousel-card">
+                  <h4>{this.props.type3}</h4> <h1>{this.props.name3}</h1>
+                  <p>{this.props.desc3}</p>
+                  <Buttons>Каталог</Buttons>
+                  <br />
+                  <br />
+                </div>
               </div>
             </div>
+          </div>
+          <div className="card1">
             <div
+              className="section1"
               style={{
-                backgroundImage: `url(${this.props.image4})`,
+                backgroundImage: `url(${this.props.image})`,
                 backgroundRepeat: "no-repeat",
-                // backgroundSize: "contain",
+                backgroundSize: "cover",
               }}
             >
-              <div className="carousel-card">
-                <h4>{this.props.type4}</h4> <h1>{this.props.name4}</h1>
-                <p>{this.props.desc4}</p>
-                <Buttons>Каталог</Buttons>
-                <br />
-                <br />
+              <div className="container">
+                <div className="carousel-card">
+                  <h4>{this.props.type4}</h4> <h1>{this.props.name4}</h1>
+                  <p>{this.props.desc4}</p>
+                  <Buttons>Каталог</Buttons>
+                  <br />
+                  <br />
+                </div>
               </div>
             </div>
-          </Slider>
-        </div>
+          </div>
+        </Slider>
       </>
     );
   }

@@ -3,6 +3,7 @@ import { katolog } from "../../data/katolog";
 import { oKonpanii } from "../../data/o_kompanii";
 import { sertifikati } from "../../data/sertifikati";
 import Home from "../home/Home";
+import NashaProduct from "../nasha_pruduct";
 import OKompanii from "../O_koppanii";
 import Sertifikati from "../sertifikati";
 export default class Katolog extends Component {
@@ -18,6 +19,7 @@ export default class Katolog extends Component {
         {sertifikati.map((el, index) => (
           <Sertifikati key={index} {...el} />
         ))}
+        <NashaProduct />
       </>
     );
   }

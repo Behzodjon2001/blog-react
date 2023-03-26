@@ -1,1 +1,55 @@
+.carousel-custom {
+  .card1 {
+    .section1 {
+      .container {
+        .carousel-card {
+          display: flex;
+          flex-direction: column;
+          gap: 17px;
+          h4 {
+            margin-top: 162px;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 13px;
+            line-height: 13px;
+            /* identical to box height, or 100% */
+            display: flex;
+            align-items: center;
+            color: #2c2d2e;
+          }
+          h1 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 40px;
+            /* identical to box height, or 125% */
+            display: flex;
+            align-items: center;
+            color: #2c2d2e;
+          }
+          p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 133% */
+            color: #2c2d2e;
+            max-width: 582px;
+          }
+          button {
+            width: 102px;
+            margin-bottom: 454px;
+          }
+        }
+      }
+    }
+  }
+}
 
+.slick-prev:before,
+.slick-next:before {
+  color: #47494c;
+}
