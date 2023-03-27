@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { oKonpanii } from "../../data/o_kompanii";
 import "./video.css";
 import "./O_kompanii.scss";
 import YoutubeEmbed from "./YoutubeEmbed";

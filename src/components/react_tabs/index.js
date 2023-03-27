@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "./ReactTabs.scss";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -85,17 +84,6 @@ export default class ReactTabs extends Component {
     return (
       <>
         {" "}
-        {/* <Tabs>
-                                                                                                                                                                                          <TabList>
-                                                                                                                                                                                            <Tab> Title 1 </Tab> <Tab> Title 2 </Tab>{" "}
-                                                                                                                                                                                          </TabList>{" "}
-                                                                                                                                                                                          <TabPanel>
-                                                                                                                                                                                            <h2> Any content 1 </h2>{" "}
-                                                                                                                                                                                          </TabPanel>{" "}
-                                                                                                                                                                                          <TabPanel>
-                                                                                                                                                                                            <h2> Any content 2 </h2>{" "}
-                                                                                                                                                                                          </TabPanel>{" "}
-                                                                                                                                                                                        </Tabs>{" "} */}{" "}
         <div className="section4">
           <div className="container">
             <div className="card1">
