@@ -1,0 +1,77 @@
+.react-tabs__tab--selected {
+  background-color: yellow !important;
+}
+
+.section4 {
+  .container {
+    .card1 {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 40px;
+      /* identical to box height, or 125% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: #2c2d2e;
+      margin: 88px auto 32px auto;
+      h2 {
+        text-align: center;
+        margin: 0 auto;
+        span {
+          color: #ef7c00;
+        }
+      }
+    }
+    .card2 {
+      display: flex;
+      gap: 22px;
+      justify-content: center;
+      button {
+        border: 1px solid #2c2d2e;
+        background-color: white;
+        border-radius: 61px;
+        border-color: #959ca3;
+        width: 184px;
+        height: 38px;
+        color: #ef7c00;
+      }
+      button:hover {
+        color: white;
+        background-color: #ef7c00;
+      }
+      button:focus {
+        color: white;
+        background-color: #ef7c00;
+      }
+    }
+    .card3 {
+      .slider_nasha {
+        display: flex !important;
+        gap: 20px !important;
+        .image_naha {
+          padding: 20px !important;
+          // display: flex;
+          // gap: 20px;
+          // overflow: auto;
+          .imagemain {
+            width: 300px !important;
+            height: 300px !important;
+          }
+        }
+      }
+    }
+    .card12 {
+      padding: 10px 20px !important;
+      margin-top: 58px !important;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 20px;
+      text-align: center;
+      color: #ef7c00 !important;
+    }
+  }
+}

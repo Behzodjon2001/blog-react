@@ -67,7 +67,7 @@ export default class Home extends Component {
             <div
               className="section1"
               style={{
-                backgroundImage: `url(${this.props.image})`,
+                backgroundImage: `url(${this.props.image2})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
@@ -88,7 +88,7 @@ export default class Home extends Component {
             <div
               className="section1"
               style={{
-                backgroundImage: `url(${this.props.image})`,
+                backgroundImage: `url(${this.props.image3})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
@@ -108,7 +108,7 @@ export default class Home extends Component {
             <div
               className="section1"
               style={{
-                backgroundImage: `url(${this.props.image})`,
+                backgroundImage: `url(${this.props.image4})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
               }}
