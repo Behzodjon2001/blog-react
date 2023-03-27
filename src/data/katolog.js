@@ -1,23 +1,24 @@
+import Background1 from "../assets/images/bg1.jpg";
 export const katolog = [
   {
     type: "LEANGROUP - тубы и этикетки",
     name: "Ламинатные тубы",
     desc: "Используются для производства зубных паст. Широко применяются в сегменте косметики, пищевой индустрии, парафармацевтике, бытовой химии и DIY (Do-it-Yourself).",
-    image: "http://leangroup-by.com/assets/img/DSC_9531s.jpg",
+    image: Background1,
     type2: "LEANGROUP - тубы и этикетки",
     name2: "Экструзионные тубы",
     desc2:
       "Используются для производства зубных паст. Широко применяются в сегменте косметики, пищевой индустрии, парафармацевтике, бытовой химии и DIY (Do-it-Yourself).",
-    image2: "http://leangroup-by.com/assets/img/DSC_9531s.jpg",
+    image2: Background1,
     type3: "LEANGROUP - тубы и этикетки",
     name3: "Экструзионные тубы",
     desc3:
       "Используются для производства зубных паст. Широко применяются в сегменте косметики, пищевой индустрии, парафармацевтике, бытовой химии и DIY (Do-it-Yourself).",
-    image3: "http://leangroup-by.com/assets/img/DSC_9531s.jpg",
+    image3: Background1,
     type4: "LEANGROUP - тубы и этикетки",
     name4: "Другая упаковка",
     desc4:
       "Используются для производства зубных паст. Широко применяются в сегменте косметики, пищевой индустрии, парафармацевтике, бытовой химии и DIY (Do-it-Yourself).",
-    image4: "http://leangroup-by.com/assets/img/DSC_9531s.jpg",
+    image4: Background1,
   },
 ];
